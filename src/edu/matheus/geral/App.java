@@ -23,6 +23,25 @@ public class App {
         
         //Aula 3
         
+        nomeCompleto = "LINGUAGEM " + "JAVA";
+
+        System.out.println(nomeCompleto);
+
+        //Metodos 3 SmartTV
+
+        SmartTv smartTv = new SmartTv();
+
+        System.out.println("TV Ligada: " + smartTv.ligada);
+
+        smartTv.diminuirVolume();
+        smartTv.diminuirVolume();
+
+        System.out.println("Canal: " + smartTv.canal);
+        System.out.println("Volume: " + smartTv.volume);
+
+        smartTv.ligar();
+        System.out.println(" Novo Status -- TV Ligada: " + smartTv.ligada);
+
 
     }
 
