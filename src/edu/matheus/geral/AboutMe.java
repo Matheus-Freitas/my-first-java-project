@@ -27,11 +27,12 @@ public class AboutMe {
 
         System.out.println("Digite sua altura: ");
         double altura = scanner.nextDouble();
-        
+            
         //Impressao continua a mesma
         System.out.println("Ola, me chamo " + nome + " " + sobrenome);
         System.out.println("Tenho " + idade +" anos ");
         System.out.println("My lengh: " + altura + "cm ");
+        
 
     }
 
